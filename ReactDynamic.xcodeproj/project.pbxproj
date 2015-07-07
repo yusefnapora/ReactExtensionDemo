@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E138D5DB950F206E42045C8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A617775C9E3C5CC8B53498B2 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5BFA019F59584A5D777D57E3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A617775C9E3C5CC8B53498B2 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		80AC06C31B49EB1D0007067A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC06C21B49EB1D0007067A /* AppDelegate.swift */; };
+		80AC06C51B49EB1D0007067A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC06C41B49EB1D0007067A /* ViewController.swift */; };
+		80AC06C81B49EB1D0007067A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AC06C61B49EB1D0007067A /* Main.storyboard */; };
+		80AC06CA1B49EB1D0007067A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AC06C91B49EB1D0007067A /* Images.xcassets */; };
+		80AC06CD1B49EB1D0007067A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AC06CB1B49EB1D0007067A /* LaunchScreen.xib */; };
+		80AC06D91B49EB1D0007067A /* ReactDynamicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC06D81B49EB1D0007067A /* ReactDynamicTests.swift */; };
+		80AC07011B49F6CD0007067A /* SharedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AC07001B49F6CD0007067A /* SharedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80AC07071B49F6CD0007067A /* SharedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */; };
+		80AC07101B49F6CD0007067A /* SharedFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC070F1B49F6CD0007067A /* SharedFrameworkTests.swift */; };
+		80AC07131B49F6CD0007067A /* SharedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */; };
+		80AC07151B49F6CD0007067A /* SharedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		80AC071C1B49F72A0007067A /* ReactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC06E21B49EC9A0007067A /* ReactView.swift */; };
+		80AC071F1B49F8450007067A /* SimpleModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AC071D1B49F8450007067A /* SimpleModule.h */; };
+		80AC07201B49F8450007067A /* SimpleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AC071E1B49F8450007067A /* SimpleModule.m */; };
+		80AC07301B49FA130007067A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC072F1B49FA130007067A /* ShareViewController.swift */; };
+		80AC07321B49FA130007067A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AC07311B49FA130007067A /* MainInterface.storyboard */; };
+		80AC07361B49FA130007067A /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80AC072B1B49FA130007067A /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		80AC073C1B49FA2B0007067A /* SharedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */; };
+		E6ABEF4FAA73C00368C7B40E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A617775C9E3C5CC8B53498B2 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80AC06D31B49EB1D0007067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AC06BC1B49EB1D0007067A;
+			remoteInfo = ReactDynamic;
+		};
+		80AC07081B49F6CD0007067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AC06FB1B49F6CD0007067A;
+			remoteInfo = SharedFramework;
+		};
+		80AC070A1B49F6CD0007067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AC06BC1B49EB1D0007067A;
+			remoteInfo = ReactDynamic;
+		};
+		80AC07111B49F6CD0007067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AC06FB1B49F6CD0007067A;
+			remoteInfo = SharedFramework;
+		};
+		80AC07331B49FA130007067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AC072A1B49FA130007067A;
+			remoteInfo = ShareExtension;
+		};
+		80AC073A1B49FA270007067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AC06FB1B49F6CD0007067A;
+			remoteInfo = SharedFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80AC07141B49F6CD0007067A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				80AC07151B49F6CD0007067A /* SharedFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC07351B49FA130007067A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				80AC07361B49FA130007067A /* ShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05BCDD0EFFA0483633D9216C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4D51B55A4F1B3916E8385598 /* Pods_ReactDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5019B61491CE82A0E53CC1F4 /* Pods-ReactDynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactDynamic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactDynamic/Pods-ReactDynamic.release.xcconfig"; sourceTree = "<group>"; };
+		56E8AD8A23EE9ECF6178CFA4 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		74966DA6D475301B5F26FA60 /* Pods_SharedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AC06BD1B49EB1D0007067A /* ReactDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactDynamic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AC06C11B49EB1D0007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AC06C21B49EB1D0007067A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80AC06C41B49EB1D0007067A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80AC06C71B49EB1D0007067A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80AC06C91B49EB1D0007067A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80AC06CC1B49EB1D0007067A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80AC06D21B49EB1D0007067A /* ReactDynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactDynamicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AC06D71B49EB1D0007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AC06D81B49EB1D0007067A /* ReactDynamicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactDynamicTests.swift; sourceTree = "<group>"; };
+		80AC06E21B49EC9A0007067A /* ReactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactView.swift; path = ../ReactDynamic/ReactView.swift; sourceTree = "<group>"; };
+		80AC06FC1B49F6CD0007067A /* SharedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AC06FF1B49F6CD0007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AC07001B49F6CD0007067A /* SharedFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedFramework.h; sourceTree = "<group>"; };
+		80AC07061B49F6CD0007067A /* SharedFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AC070E1B49F6CD0007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AC070F1B49F6CD0007067A /* SharedFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFrameworkTests.swift; sourceTree = "<group>"; };
+		80AC071D1B49F8450007067A /* SimpleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleModule.h; path = ReactDynamic/SimpleModule.h; sourceTree = SOURCE_ROOT; };
+		80AC071E1B49F8450007067A /* SimpleModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleModule.m; path = ReactDynamic/SimpleModule.m; sourceTree = SOURCE_ROOT; };
+		80AC072B1B49FA130007067A /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AC072E1B49FA130007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AC072F1B49FA130007067A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		80AC07311B49FA130007067A /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		845161D9C51D3CF9A5125ED6 /* Pods-SharedFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedFramework/Pods-SharedFramework.release.xcconfig"; sourceTree = "<group>"; };
+		971B48ED20849A1847844B5F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A617775C9E3C5CC8B53498B2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90565F675ED75E1BFE64EA5 /* Pods-ReactDynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactDynamic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactDynamic/Pods-ReactDynamic.debug.xcconfig"; sourceTree = "<group>"; };
+		CE112F6FD070859A8ACD7D0F /* Pods-ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
+		E361FEBA0F0137B5CC91C9F8 /* Pods-SharedFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedFramework/Pods-SharedFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		EC748A0F36DBDCB7F8E2AEF1 /* Pods_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AC06BA1B49EB1D0007067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC07131B49F6CD0007067A /* SharedFramework.framework in Frameworks */,
+				3E138D5DB950F206E42045C8 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC06CF1B49EB1D0007067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC06F81B49F6CD0007067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ABEF4FAA73C00368C7B40E /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC07031B49F6CD0007067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC07071B49F6CD0007067A /* SharedFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC07281B49FA130007067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC073C1B49FA2B0007067A /* SharedFramework.framework in Frameworks */,
+				5BFA019F59584A5D777D57E3 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B4825FD9510A3B9E7A1AB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A90565F675ED75E1BFE64EA5 /* Pods-ReactDynamic.debug.xcconfig */,
+				5019B61491CE82A0E53CC1F4 /* Pods-ReactDynamic.release.xcconfig */,
+				E361FEBA0F0137B5CC91C9F8 /* Pods-SharedFramework.debug.xcconfig */,
+				845161D9C51D3CF9A5125ED6 /* Pods-SharedFramework.release.xcconfig */,
+				56E8AD8A23EE9ECF6178CFA4 /* Pods-ShareExtension.debug.xcconfig */,
+				CE112F6FD070859A8ACD7D0F /* Pods-ShareExtension.release.xcconfig */,
+				05BCDD0EFFA0483633D9216C /* Pods.debug.xcconfig */,
+				971B48ED20849A1847844B5F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80AC06B41B49EB1D0007067A = {
+			isa = PBXGroup;
+			children = (
+				80AC06BF1B49EB1D0007067A /* ReactDynamic */,
+				80AC06D51B49EB1D0007067A /* ReactDynamicTests */,
+				80AC06FD1B49F6CD0007067A /* SharedFramework */,
+				80AC070C1B49F6CD0007067A /* SharedFrameworkTests */,
+				80AC072C1B49FA130007067A /* ShareExtension */,
+				80AC06BE1B49EB1D0007067A /* Products */,
+				26B4825FD9510A3B9E7A1AB0 /* Pods */,
+				9C94A47E7FC7B9F0F22EC2B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80AC06BE1B49EB1D0007067A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AC06BD1B49EB1D0007067A /* ReactDynamic.app */,
+				80AC06D21B49EB1D0007067A /* ReactDynamicTests.xctest */,
+				80AC06FC1B49F6CD0007067A /* SharedFramework.framework */,
+				80AC07061B49F6CD0007067A /* SharedFrameworkTests.xctest */,
+				80AC072B1B49FA130007067A /* ShareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AC06BF1B49EB1D0007067A /* ReactDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				80AC06C21B49EB1D0007067A /* AppDelegate.swift */,
+				80AC06C41B49EB1D0007067A /* ViewController.swift */,
+				80AC06C61B49EB1D0007067A /* Main.storyboard */,
+				80AC06C91B49EB1D0007067A /* Images.xcassets */,
+				80AC06CB1B49EB1D0007067A /* LaunchScreen.xib */,
+				80AC06C01B49EB1D0007067A /* Supporting Files */,
+			);
+			path = ReactDynamic;
+			sourceTree = "<group>";
+		};
+		80AC06C01B49EB1D0007067A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AC06C11B49EB1D0007067A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80AC06D51B49EB1D0007067A /* ReactDynamicTests */ = {
+			isa = PBXGroup;
+			children = (
+				80AC06D81B49EB1D0007067A /* ReactDynamicTests.swift */,
+				80AC06D61B49EB1D0007067A /* Supporting Files */,
+			);
+			path = ReactDynamicTests;
+			sourceTree = "<group>";
+		};
+		80AC06D61B49EB1D0007067A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AC06D71B49EB1D0007067A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80AC06FD1B49F6CD0007067A /* SharedFramework */ = {
+			isa = PBXGroup;
+			children = (
+				80AC071D1B49F8450007067A /* SimpleModule.h */,
+				80AC071E1B49F8450007067A /* SimpleModule.m */,
+				80AC06E21B49EC9A0007067A /* ReactView.swift */,
+				80AC07001B49F6CD0007067A /* SharedFramework.h */,
+				80AC06FE1B49F6CD0007067A /* Supporting Files */,
+			);
+			path = SharedFramework;
+			sourceTree = "<group>";
+		};
+		80AC06FE1B49F6CD0007067A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AC06FF1B49F6CD0007067A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80AC070C1B49F6CD0007067A /* SharedFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				80AC070F1B49F6CD0007067A /* SharedFrameworkTests.swift */,
+				80AC070D1B49F6CD0007067A /* Supporting Files */,
+			);
+			path = SharedFrameworkTests;
+			sourceTree = "<group>";
+		};
+		80AC070D1B49F6CD0007067A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AC070E1B49F6CD0007067A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80AC072C1B49FA130007067A /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				80AC072F1B49FA130007067A /* ShareViewController.swift */,
+				80AC07311B49FA130007067A /* MainInterface.storyboard */,
+				80AC072D1B49FA130007067A /* Supporting Files */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		80AC072D1B49FA130007067A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AC072E1B49FA130007067A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C94A47E7FC7B9F0F22EC2B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D51B55A4F1B3916E8385598 /* Pods_ReactDynamic.framework */,
+				74966DA6D475301B5F26FA60 /* Pods_SharedFramework.framework */,
+				EC748A0F36DBDCB7F8E2AEF1 /* Pods_ShareExtension.framework */,
+				A617775C9E3C5CC8B53498B2 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80AC06F91B49F6CD0007067A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC071F1B49F8450007067A /* SimpleModule.h in Headers */,
+				80AC07011B49F6CD0007067A /* SharedFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80AC06BC1B49EB1D0007067A /* ReactDynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AC06DC1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactDynamic" */;
+			buildPhases = (
+				676E4FC26D73329281E00694 /* Check Pods Manifest.lock */,
+				80AC06B91B49EB1D0007067A /* Sources */,
+				80AC06BA1B49EB1D0007067A /* Frameworks */,
+				80AC06BB1B49EB1D0007067A /* Resources */,
+				80AC07141B49F6CD0007067A /* Embed Frameworks */,
+				80AC07351B49FA130007067A /* Embed App Extensions */,
+				39FB2C67E8591CEB56D5C2F6 /* Embed Pods Frameworks */,
+				F46990B1DB1D3D2834F9DDF4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AC07121B49F6CD0007067A /* PBXTargetDependency */,
+				80AC07341B49FA130007067A /* PBXTargetDependency */,
+			);
+			name = ReactDynamic;
+			productName = ReactDynamic;
+			productReference = 80AC06BD1B49EB1D0007067A /* ReactDynamic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80AC06D11B49EB1D0007067A /* ReactDynamicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AC06DF1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactDynamicTests" */;
+			buildPhases = (
+				80AC06CE1B49EB1D0007067A /* Sources */,
+				80AC06CF1B49EB1D0007067A /* Frameworks */,
+				80AC06D01B49EB1D0007067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AC06D41B49EB1D0007067A /* PBXTargetDependency */,
+			);
+			name = ReactDynamicTests;
+			productName = ReactDynamicTests;
+			productReference = 80AC06D21B49EB1D0007067A /* ReactDynamicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80AC06FB1B49F6CD0007067A /* SharedFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AC071A1B49F6CD0007067A /* Build configuration list for PBXNativeTarget "SharedFramework" */;
+			buildPhases = (
+				EF86D0D9D20E1A55A4EFA31F /* Check Pods Manifest.lock */,
+				80AC06F71B49F6CD0007067A /* Sources */,
+				80AC06F81B49F6CD0007067A /* Frameworks */,
+				80AC06F91B49F6CD0007067A /* Headers */,
+				80AC06FA1B49F6CD0007067A /* Resources */,
+				1D19D84378EF2428D48E2EC4 /* Embed Pods Frameworks */,
+				FF82742C9780555E65DD607A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedFramework;
+			productName = SharedFramework;
+			productReference = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80AC07051B49F6CD0007067A /* SharedFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AC071B1B49F6CD0007067A /* Build configuration list for PBXNativeTarget "SharedFrameworkTests" */;
+			buildPhases = (
+				80AC07021B49F6CD0007067A /* Sources */,
+				80AC07031B49F6CD0007067A /* Frameworks */,
+				80AC07041B49F6CD0007067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AC07091B49F6CD0007067A /* PBXTargetDependency */,
+				80AC070B1B49F6CD0007067A /* PBXTargetDependency */,
+			);
+			name = SharedFrameworkTests;
+			productName = SharedFrameworkTests;
+			productReference = 80AC07061B49F6CD0007067A /* SharedFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80AC072A1B49FA130007067A /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AC07371B49FA130007067A /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				F3BFDC995C84F00C95F5BA1C /* Check Pods Manifest.lock */,
+				80AC07271B49FA130007067A /* Sources */,
+				80AC07281B49FA130007067A /* Frameworks */,
+				80AC07291B49FA130007067A /* Resources */,
+				3DAD8E09DA3BDD2E673C9AE0 /* Embed Pods Frameworks */,
+				011DF1972989504D5DE08D18 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AC073B1B49FA270007067A /* PBXTargetDependency */,
+			);
+			name = ShareExtension;
+			productName = ShareExtension;
+			productReference = 80AC072B1B49FA130007067A /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AC06B51B49EB1D0007067A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Yusef Napora";
+				TargetAttributes = {
+					80AC06BC1B49EB1D0007067A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					80AC06D11B49EB1D0007067A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 80AC06BC1B49EB1D0007067A;
+					};
+					80AC06FB1B49F6CD0007067A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					80AC07051B49F6CD0007067A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 80AC06BC1B49EB1D0007067A;
+					};
+					80AC072A1B49FA130007067A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 80AC06B81B49EB1D0007067A /* Build configuration list for PBXProject "ReactDynamic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80AC06B41B49EB1D0007067A;
+			productRefGroup = 80AC06BE1B49EB1D0007067A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AC06BC1B49EB1D0007067A /* ReactDynamic */,
+				80AC06D11B49EB1D0007067A /* ReactDynamicTests */,
+				80AC06FB1B49F6CD0007067A /* SharedFramework */,
+				80AC07051B49F6CD0007067A /* SharedFrameworkTests */,
+				80AC072A1B49FA130007067A /* ShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AC06BB1B49EB1D0007067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC06C81B49EB1D0007067A /* Main.storyboard in Resources */,
+				80AC06CD1B49EB1D0007067A /* LaunchScreen.xib in Resources */,
+				80AC06CA1B49EB1D0007067A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC06D01B49EB1D0007067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC06FA1B49F6CD0007067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC07041B49F6CD0007067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC07291B49FA130007067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC07321B49FA130007067A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		011DF1972989504D5DE08D18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D19D84378EF2428D48E2EC4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39FB2C67E8591CEB56D5C2F6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DAD8E09DA3BDD2E673C9AE0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		676E4FC26D73329281E00694 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF86D0D9D20E1A55A4EFA31F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3BFDC995C84F00C95F5BA1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F46990B1DB1D3D2834F9DDF4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF82742C9780555E65DD607A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AC06B91B49EB1D0007067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC06C51B49EB1D0007067A /* ViewController.swift in Sources */,
+				80AC06C31B49EB1D0007067A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC06CE1B49EB1D0007067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC06D91B49EB1D0007067A /* ReactDynamicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC06F71B49F6CD0007067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC071C1B49F72A0007067A /* ReactView.swift in Sources */,
+				80AC07201B49F8450007067A /* SimpleModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC07021B49F6CD0007067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC07101B49F6CD0007067A /* SharedFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC07271B49FA130007067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AC07301B49FA130007067A /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80AC06D41B49EB1D0007067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AC06BC1B49EB1D0007067A /* ReactDynamic */;
+			targetProxy = 80AC06D31B49EB1D0007067A /* PBXContainerItemProxy */;
+		};
+		80AC07091B49F6CD0007067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AC06FB1B49F6CD0007067A /* SharedFramework */;
+			targetProxy = 80AC07081B49F6CD0007067A /* PBXContainerItemProxy */;
+		};
+		80AC070B1B49F6CD0007067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AC06BC1B49EB1D0007067A /* ReactDynamic */;
+			targetProxy = 80AC070A1B49F6CD0007067A /* PBXContainerItemProxy */;
+		};
+		80AC07121B49F6CD0007067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AC06FB1B49F6CD0007067A /* SharedFramework */;
+			targetProxy = 80AC07111B49F6CD0007067A /* PBXContainerItemProxy */;
+		};
+		80AC07341B49FA130007067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AC072A1B49FA130007067A /* ShareExtension */;
+			targetProxy = 80AC07331B49FA130007067A /* PBXContainerItemProxy */;
+		};
+		80AC073B1B49FA270007067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AC06FB1B49F6CD0007067A /* SharedFramework */;
+			targetProxy = 80AC073A1B49FA270007067A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80AC06C61B49EB1D0007067A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AC06C71B49EB1D0007067A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80AC06CB1B49EB1D0007067A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AC06CC1B49EB1D0007067A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AC06DA1B49EB1D0007067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AC06DB1B49EB1D0007067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AC06DD1B49EB1D0007067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BCDD0EFFA0483633D9216C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80AC06DE1B49EB1D0007067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971B48ED20849A1847844B5F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80AC06E01B49EB1D0007067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactDynamic.app/ReactDynamic";
+			};
+			name = Debug;
+		};
+		80AC06E11B49EB1D0007067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactDynamic.app/ReactDynamic";
+			};
+			name = Release;
+		};
+		80AC07161B49F6CD0007067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BCDD0EFFA0483633D9216C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharedFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80AC07171B49F6CD0007067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971B48ED20849A1847844B5F /* Pods.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				INFOPLIST_FILE = SharedFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80AC07181B49F6CD0007067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharedFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactDynamic.app/ReactDynamic";
+			};
+			name = Debug;
+		};
+		80AC07191B49F6CD0007067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharedFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactDynamic.app/ReactDynamic";
+			};
+			name = Release;
+		};
+		80AC07381B49FA130007067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BCDD0EFFA0483633D9216C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		80AC07391B49FA130007067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971B48ED20849A1847844B5F /* Pods.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AC06B81B49EB1D0007067A /* Build configuration list for PBXProject "ReactDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AC06DA1B49EB1D0007067A /* Debug */,
+				80AC06DB1B49EB1D0007067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AC06DC1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AC06DD1B49EB1D0007067A /* Debug */,
+				80AC06DE1B49EB1D0007067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AC06DF1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactDynamicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AC06E01B49EB1D0007067A /* Debug */,
+				80AC06E11B49EB1D0007067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AC071A1B49F6CD0007067A /* Build configuration list for PBXNativeTarget "SharedFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AC07161B49F6CD0007067A /* Debug */,
+				80AC07171B49F6CD0007067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AC071B1B49F6CD0007067A /* Build configuration list for PBXNativeTarget "SharedFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AC07181B49F6CD0007067A /* Debug */,
+				80AC07191B49F6CD0007067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AC07371B49FA130007067A /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AC07381B49FA130007067A /* Debug */,
+				80AC07391B49FA130007067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AC06B51B49EB1D0007067A /* Project object */;
+}
