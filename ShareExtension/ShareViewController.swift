@@ -11,7 +11,7 @@ import Social
 import SharedFramework
 
 class ShareViewController: UIViewController {
-
+  
   override func loadView() {
     view = ReactView()
   }

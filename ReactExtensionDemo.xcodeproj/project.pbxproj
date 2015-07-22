@@ -14,10 +14,7 @@
 		80AC06C81B49EB1D0007067A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AC06C61B49EB1D0007067A /* Main.storyboard */; };
 		80AC06CA1B49EB1D0007067A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AC06C91B49EB1D0007067A /* Images.xcassets */; };
 		80AC06CD1B49EB1D0007067A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AC06CB1B49EB1D0007067A /* LaunchScreen.xib */; };
-		80AC06D91B49EB1D0007067A /* ReactDynamicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC06D81B49EB1D0007067A /* ReactDynamicTests.swift */; };
 		80AC07011B49F6CD0007067A /* SharedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AC07001B49F6CD0007067A /* SharedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80AC07071B49F6CD0007067A /* SharedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */; };
-		80AC07101B49F6CD0007067A /* SharedFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC070F1B49F6CD0007067A /* SharedFrameworkTests.swift */; };
 		80AC07131B49F6CD0007067A /* SharedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */; };
 		80AC07151B49F6CD0007067A /* SharedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80AC071C1B49F72A0007067A /* ReactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC06E21B49EC9A0007067A /* ReactView.swift */; };
@@ -31,27 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		80AC06D31B49EB1D0007067A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80AC06BC1B49EB1D0007067A;
-			remoteInfo = ReactDynamic;
-		};
-		80AC07081B49F6CD0007067A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80AC06FB1B49F6CD0007067A;
-			remoteInfo = SharedFramework;
-		};
-		80AC070A1B49F6CD0007067A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80AC06BC1B49EB1D0007067A;
-			remoteInfo = ReactDynamic;
-		};
 		80AC07111B49F6CD0007067A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 80AC06B51B49EB1D0007067A /* Project object */;
@@ -103,38 +79,26 @@
 /* Begin PBXFileReference section */
 		05BCDD0EFFA0483633D9216C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4D51B55A4F1B3916E8385598 /* Pods_ReactDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5019B61491CE82A0E53CC1F4 /* Pods-ReactDynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactDynamic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactDynamic/Pods-ReactDynamic.release.xcconfig"; sourceTree = "<group>"; };
-		56E8AD8A23EE9ECF6178CFA4 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		74966DA6D475301B5F26FA60 /* Pods_SharedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80AC06BD1B49EB1D0007067A /* ReactDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactDynamic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AC06BD1B49EB1D0007067A /* ReactExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AC06C11B49EB1D0007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80AC06C21B49EB1D0007067A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80AC06C41B49EB1D0007067A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80AC06C71B49EB1D0007067A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80AC06C91B49EB1D0007067A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		80AC06CC1B49EB1D0007067A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		80AC06D21B49EB1D0007067A /* ReactDynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactDynamicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80AC06D71B49EB1D0007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80AC06D81B49EB1D0007067A /* ReactDynamicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactDynamicTests.swift; sourceTree = "<group>"; };
 		80AC06E21B49EC9A0007067A /* ReactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactView.swift; path = ../ReactDynamic/ReactView.swift; sourceTree = "<group>"; };
 		80AC06FC1B49F6CD0007067A /* SharedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AC06FF1B49F6CD0007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80AC07001B49F6CD0007067A /* SharedFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedFramework.h; sourceTree = "<group>"; };
-		80AC07061B49F6CD0007067A /* SharedFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80AC070E1B49F6CD0007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80AC070F1B49F6CD0007067A /* SharedFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFrameworkTests.swift; sourceTree = "<group>"; };
 		80AC071D1B49F8450007067A /* SimpleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleModule.h; path = ReactDynamic/SimpleModule.h; sourceTree = SOURCE_ROOT; };
 		80AC071E1B49F8450007067A /* SimpleModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleModule.m; path = ReactDynamic/SimpleModule.m; sourceTree = SOURCE_ROOT; };
 		80AC072B1B49FA130007067A /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AC072E1B49FA130007067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80AC072F1B49FA130007067A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		80AC07311B49FA130007067A /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
-		845161D9C51D3CF9A5125ED6 /* Pods-SharedFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedFramework/Pods-SharedFramework.release.xcconfig"; sourceTree = "<group>"; };
 		971B48ED20849A1847844B5F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A617775C9E3C5CC8B53498B2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A90565F675ED75E1BFE64EA5 /* Pods-ReactDynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactDynamic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactDynamic/Pods-ReactDynamic.debug.xcconfig"; sourceTree = "<group>"; };
-		CE112F6FD070859A8ACD7D0F /* Pods-ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
-		E361FEBA0F0137B5CC91C9F8 /* Pods-SharedFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedFramework/Pods-SharedFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		EC748A0F36DBDCB7F8E2AEF1 /* Pods_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,26 +112,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80AC06CF1B49EB1D0007067A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80AC06F81B49F6CD0007067A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E6ABEF4FAA73C00368C7B40E /* Pods.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80AC07031B49F6CD0007067A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80AC07071B49F6CD0007067A /* SharedFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,12 +135,6 @@
 		26B4825FD9510A3B9E7A1AB0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A90565F675ED75E1BFE64EA5 /* Pods-ReactDynamic.debug.xcconfig */,
-				5019B61491CE82A0E53CC1F4 /* Pods-ReactDynamic.release.xcconfig */,
-				E361FEBA0F0137B5CC91C9F8 /* Pods-SharedFramework.debug.xcconfig */,
-				845161D9C51D3CF9A5125ED6 /* Pods-SharedFramework.release.xcconfig */,
-				56E8AD8A23EE9ECF6178CFA4 /* Pods-ShareExtension.debug.xcconfig */,
-				CE112F6FD070859A8ACD7D0F /* Pods-ShareExtension.release.xcconfig */,
 				05BCDD0EFFA0483633D9216C /* Pods.debug.xcconfig */,
 				971B48ED20849A1847844B5F /* Pods.release.xcconfig */,
 			);
@@ -201,10 +144,8 @@
 		80AC06B41B49EB1D0007067A = {
 			isa = PBXGroup;
 			children = (
-				80AC06BF1B49EB1D0007067A /* ReactDynamic */,
-				80AC06D51B49EB1D0007067A /* ReactDynamicTests */,
+				80AC06BF1B49EB1D0007067A /* ReactExtensionDemo */,
 				80AC06FD1B49F6CD0007067A /* SharedFramework */,
-				80AC070C1B49F6CD0007067A /* SharedFrameworkTests */,
 				80AC072C1B49FA130007067A /* ShareExtension */,
 				80AC06BE1B49EB1D0007067A /* Products */,
 				26B4825FD9510A3B9E7A1AB0 /* Pods */,
@@ -215,16 +156,14 @@
 		80AC06BE1B49EB1D0007067A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80AC06BD1B49EB1D0007067A /* ReactDynamic.app */,
-				80AC06D21B49EB1D0007067A /* ReactDynamicTests.xctest */,
+				80AC06BD1B49EB1D0007067A /* ReactExtensionDemo.app */,
 				80AC06FC1B49F6CD0007067A /* SharedFramework.framework */,
-				80AC07061B49F6CD0007067A /* SharedFrameworkTests.xctest */,
 				80AC072B1B49FA130007067A /* ShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80AC06BF1B49EB1D0007067A /* ReactDynamic */ = {
+		80AC06BF1B49EB1D0007067A /* ReactExtensionDemo */ = {
 			isa = PBXGroup;
 			children = (
 				80AC06C21B49EB1D0007067A /* AppDelegate.swift */,
@@ -234,6 +173,7 @@
 				80AC06CB1B49EB1D0007067A /* LaunchScreen.xib */,
 				80AC06C01B49EB1D0007067A /* Supporting Files */,
 			);
+			name = ReactExtensionDemo;
 			path = ReactDynamic;
 			sourceTree = "<group>";
 		};
@@ -241,23 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				80AC06C11B49EB1D0007067A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		80AC06D51B49EB1D0007067A /* ReactDynamicTests */ = {
-			isa = PBXGroup;
-			children = (
-				80AC06D81B49EB1D0007067A /* ReactDynamicTests.swift */,
-				80AC06D61B49EB1D0007067A /* Supporting Files */,
-			);
-			path = ReactDynamicTests;
-			sourceTree = "<group>";
-		};
-		80AC06D61B49EB1D0007067A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				80AC06D71B49EB1D0007067A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -278,23 +201,6 @@
 			isa = PBXGroup;
 			children = (
 				80AC06FF1B49F6CD0007067A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		80AC070C1B49F6CD0007067A /* SharedFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				80AC070F1B49F6CD0007067A /* SharedFrameworkTests.swift */,
-				80AC070D1B49F6CD0007067A /* Supporting Files */,
-			);
-			path = SharedFrameworkTests;
-			sourceTree = "<group>";
-		};
-		80AC070D1B49F6CD0007067A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				80AC070E1B49F6CD0007067A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -343,9 +249,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		80AC06BC1B49EB1D0007067A /* ReactDynamic */ = {
+		80AC06BC1B49EB1D0007067A /* ReactExtensionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80AC06DC1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactDynamic" */;
+			buildConfigurationList = 80AC06DC1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactExtensionDemo" */;
 			buildPhases = (
 				676E4FC26D73329281E00694 /* Check Pods Manifest.lock */,
 				80AC06B91B49EB1D0007067A /* Sources */,
@@ -355,6 +261,7 @@
 				80AC07351B49FA130007067A /* Embed App Extensions */,
 				39FB2C67E8591CEB56D5C2F6 /* Embed Pods Frameworks */,
 				F46990B1DB1D3D2834F9DDF4 /* Copy Pods Resources */,
+				808ACAB71B4B7586008F4A07 /* Ensure React Packager is Running */,
 			);
 			buildRules = (
 			);
@@ -362,28 +269,10 @@
 				80AC07121B49F6CD0007067A /* PBXTargetDependency */,
 				80AC07341B49FA130007067A /* PBXTargetDependency */,
 			);
-			name = ReactDynamic;
+			name = ReactExtensionDemo;
 			productName = ReactDynamic;
-			productReference = 80AC06BD1B49EB1D0007067A /* ReactDynamic.app */;
+			productReference = 80AC06BD1B49EB1D0007067A /* ReactExtensionDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		80AC06D11B49EB1D0007067A /* ReactDynamicTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80AC06DF1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactDynamicTests" */;
-			buildPhases = (
-				80AC06CE1B49EB1D0007067A /* Sources */,
-				80AC06CF1B49EB1D0007067A /* Frameworks */,
-				80AC06D01B49EB1D0007067A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80AC06D41B49EB1D0007067A /* PBXTargetDependency */,
-			);
-			name = ReactDynamicTests;
-			productName = ReactDynamicTests;
-			productReference = 80AC06D21B49EB1D0007067A /* ReactDynamicTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		80AC06FB1B49F6CD0007067A /* SharedFramework */ = {
 			isa = PBXNativeTarget;
@@ -405,25 +294,6 @@
 			productName = SharedFramework;
 			productReference = 80AC06FC1B49F6CD0007067A /* SharedFramework.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		80AC07051B49F6CD0007067A /* SharedFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80AC071B1B49F6CD0007067A /* Build configuration list for PBXNativeTarget "SharedFrameworkTests" */;
-			buildPhases = (
-				80AC07021B49F6CD0007067A /* Sources */,
-				80AC07031B49F6CD0007067A /* Frameworks */,
-				80AC07041B49F6CD0007067A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80AC07091B49F6CD0007067A /* PBXTargetDependency */,
-				80AC070B1B49F6CD0007067A /* PBXTargetDependency */,
-			);
-			name = SharedFrameworkTests;
-			productName = SharedFrameworkTests;
-			productReference = 80AC07061B49F6CD0007067A /* SharedFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		80AC072A1B49FA130007067A /* ShareExtension */ = {
 			isa = PBXNativeTarget;
@@ -458,23 +328,15 @@
 					80AC06BC1B49EB1D0007067A = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					80AC06D11B49EB1D0007067A = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 80AC06BC1B49EB1D0007067A;
-					};
 					80AC06FB1B49F6CD0007067A = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					80AC07051B49F6CD0007067A = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 80AC06BC1B49EB1D0007067A;
 					};
 					80AC072A1B49FA130007067A = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = 80AC06B81B49EB1D0007067A /* Build configuration list for PBXProject "ReactDynamic" */;
+			buildConfigurationList = 80AC06B81B49EB1D0007067A /* Build configuration list for PBXProject "ReactExtensionDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -487,10 +349,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80AC06BC1B49EB1D0007067A /* ReactDynamic */,
-				80AC06D11B49EB1D0007067A /* ReactDynamicTests */,
+				80AC06BC1B49EB1D0007067A /* ReactExtensionDemo */,
 				80AC06FB1B49F6CD0007067A /* SharedFramework */,
-				80AC07051B49F6CD0007067A /* SharedFrameworkTests */,
 				80AC072A1B49FA130007067A /* ShareExtension */,
 			);
 		};
@@ -507,21 +367,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80AC06D01B49EB1D0007067A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80AC06FA1B49F6CD0007067A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80AC07041B49F6CD0007067A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -614,6 +460,20 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		808ACAB71B4B7586008F4A07 /* Ensure React Packager is Running */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Ensure React Packager is Running";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if nc -w 5 -z localhost 8081 ; then\nif ! curl -s \"http://localhost:8081/status\" | grep -q \"packager-status:running\" ; then\necho \"Port 8081 already in use, packager is either not running or not running correctly\"\nexit 2\nfi\nelse\n\nif [ -e /Applications/iTerm.app ]; then\nTERMINAL_APP=\"iTerm\"\nelse\nTERMINAL_APP=\"Terminal\"\nfi\n\nopen -a $TERMINAL_APP $SRCROOT/launchPackager.command || echo \"Can't start packager automatically\"\nfi";
+		};
 		EF86D0D9D20E1A55A4EFA31F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -686,28 +546,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80AC06CE1B49EB1D0007067A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80AC06D91B49EB1D0007067A /* ReactDynamicTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80AC06F71B49F6CD0007067A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				80AC071C1B49F72A0007067A /* ReactView.swift in Sources */,
 				80AC07201B49F8450007067A /* SimpleModule.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80AC07021B49F6CD0007067A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80AC07101B49F6CD0007067A /* SharedFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,21 +566,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		80AC06D41B49EB1D0007067A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80AC06BC1B49EB1D0007067A /* ReactDynamic */;
-			targetProxy = 80AC06D31B49EB1D0007067A /* PBXContainerItemProxy */;
-		};
-		80AC07091B49F6CD0007067A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80AC06FB1B49F6CD0007067A /* SharedFramework */;
-			targetProxy = 80AC07081B49F6CD0007067A /* PBXContainerItemProxy */;
-		};
-		80AC070B1B49F6CD0007067A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80AC06BC1B49EB1D0007067A /* ReactDynamic */;
-			targetProxy = 80AC070A1B49F6CD0007067A /* PBXContainerItemProxy */;
-		};
 		80AC07121B49F6CD0007067A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 80AC06FB1B49F6CD0007067A /* SharedFramework */;
@@ -864,7 +693,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactDynamic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReactExtensionDemo;
 			};
 			name = Debug;
 		};
@@ -875,41 +704,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactDynamic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		80AC06E01B49EB1D0007067A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactDynamicTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactDynamic.app/ReactDynamic";
-			};
-			name = Debug;
-		};
-		80AC06E11B49EB1D0007067A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactDynamicTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactDynamic.app/ReactDynamic";
+				PRODUCT_NAME = ReactExtensionDemo;
 			};
 			name = Release;
 		};
@@ -959,38 +754,6 @@
 			};
 			name = Release;
 		};
-		80AC07181B49F6CD0007067A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SharedFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactDynamic.app/ReactDynamic";
-			};
-			name = Debug;
-		};
-		80AC07191B49F6CD0007067A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SharedFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactDynamic.app/ReactDynamic";
-			};
-			name = Release;
-		};
 		80AC07381B49FA130007067A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05BCDD0EFFA0483633D9216C /* Pods.debug.xcconfig */;
@@ -1020,7 +783,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80AC06B81B49EB1D0007067A /* Build configuration list for PBXProject "ReactDynamic" */ = {
+		80AC06B81B49EB1D0007067A /* Build configuration list for PBXProject "ReactExtensionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80AC06DA1B49EB1D0007067A /* Debug */,
@@ -1029,20 +792,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80AC06DC1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactDynamic" */ = {
+		80AC06DC1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactExtensionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80AC06DD1B49EB1D0007067A /* Debug */,
 				80AC06DE1B49EB1D0007067A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80AC06DF1B49EB1D0007067A /* Build configuration list for PBXNativeTarget "ReactDynamicTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80AC06E01B49EB1D0007067A /* Debug */,
-				80AC06E11B49EB1D0007067A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1052,15 +806,6 @@
 			buildConfigurations = (
 				80AC07161B49F6CD0007067A /* Debug */,
 				80AC07171B49F6CD0007067A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80AC071B1B49F6CD0007067A /* Build configuration list for PBXNativeTarget "SharedFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80AC07181B49F6CD0007067A /* Debug */,
-				80AC07191B49F6CD0007067A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

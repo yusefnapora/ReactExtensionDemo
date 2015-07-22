@@ -6,12 +6,14 @@ var {
   View,
   NativeModules,
   AlertIOS,
+  AppStateIOS,
 } = React;
 
 var styles = React.StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red'
+    paddingTop: 20,
+    backgroundColor: 'white'
   }
 });
 
@@ -31,12 +33,22 @@ class SimpleApp extends React.Component {
   }
 
   render() {
+    var text = "";
+    if (AppStateIOS.currentState === 'extension') {
+      text = "You're running React in an iOS App Extension. :)";
+    } else {
+      text = "You're running React in an iOS Application.";
+    }
+
     return (
       <View style={styles.container}>
-        <Text>This is a simple application.</Text>
+        <Text>{text}</Text>
       </View>
     )
   }
 }
+
+
+
 
 React.AppRegistry.registerComponent('SimpleApp', () => SimpleApp);

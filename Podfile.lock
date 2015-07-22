@@ -1,69 +1,69 @@
 PODS:
-  - React (0.7.0-rc.2):
-    - React/Core (= 0.7.0-rc.2)
-  - React/ART (0.7.0-rc.2):
+  - React (0.8.0):
+    - React/Core (= 0.8.0)
+  - React/ART (0.8.0):
     - React/Core
-  - React/Core (0.7.0-rc.2)
-  - React/RCTActionSheet (0.7.0-rc.2):
+  - React/Core (0.8.0)
+  - React/RCTActionSheet (0.8.0):
     - React/Core
-  - React/RCTAdSupport (0.7.0-rc.2):
+  - React/RCTAdSupport (0.8.0):
     - React/Core
-  - React/RCTAnimationExperimental (0.7.0-rc.2):
+  - React/RCTAnimationExperimental (0.8.0):
     - React/Core
-  - React/RCTGeolocation (0.7.0-rc.2):
+  - React/RCTGeolocation (0.8.0):
     - React/Core
-  - React/RCTImage (0.7.0-rc.2):
+  - React/RCTImage (0.8.0):
     - React/Core
-  - React/RCTNetwork (0.7.0-rc.2):
+  - React/RCTNetwork (0.8.0):
     - React/Core
-  - React/RCTPushNotification (0.7.0-rc.2):
+  - React/RCTPushNotification (0.8.0):
     - React/Core
-  - React/RCTSettings (0.7.0-rc.2):
+  - React/RCTSettings (0.8.0):
     - React/Core
-  - React/RCTText (0.7.0-rc.2):
+  - React/RCTText (0.8.0):
     - React/Core
-  - React/RCTVibration (0.7.0-rc.2):
+  - React/RCTVibration (0.8.0):
     - React/Core
-  - React/RCTWebSocket (0.7.0-rc.2):
+  - React/RCTWebSocket (0.8.0):
     - React/Core
   - SnapKit (0.12.0)
 
 DEPENDENCIES:
-  - React (from `https://github.com/yusefnapora/react-native`, branch `extension-safe-api`)
-  - React/ART (from `https://github.com/yusefnapora/react-native`, branch `extension-safe-api`)
-  - React/RCTActionSheet (from `https://github.com/yusefnapora/react-native`, branch
-    `extension-safe-api`)
-  - React/RCTAdSupport (from `https://github.com/yusefnapora/react-native`, branch
-    `extension-safe-api`)
+  - React (from `https://github.com/yusefnapora/react-native`, commit `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/ART (from `https://github.com/yusefnapora/react-native`, commit `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTActionSheet (from `https://github.com/yusefnapora/react-native`, commit
+    `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTAdSupport (from `https://github.com/yusefnapora/react-native`, commit
+    `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
   - React/RCTAnimationExperimental (from `https://github.com/yusefnapora/react-native`,
-    branch `extension-safe-api`)
-  - React/RCTGeolocation (from `https://github.com/yusefnapora/react-native`, branch
-    `extension-safe-api`)
-  - React/RCTImage (from `https://github.com/yusefnapora/react-native`, branch `extension-safe-api`)
-  - React/RCTNetwork (from `https://github.com/yusefnapora/react-native`, branch `extension-safe-api`)
+    commit `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTGeolocation (from `https://github.com/yusefnapora/react-native`, commit
+    `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTImage (from `https://github.com/yusefnapora/react-native`, commit `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTNetwork (from `https://github.com/yusefnapora/react-native`, commit `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
   - React/RCTPushNotification (from `https://github.com/yusefnapora/react-native`,
-    branch `extension-safe-api`)
-  - React/RCTSettings (from `https://github.com/yusefnapora/react-native`, branch
-    `extension-safe-api`)
-  - React/RCTText (from `https://github.com/yusefnapora/react-native`, branch `extension-safe-api`)
-  - React/RCTVibration (from `https://github.com/yusefnapora/react-native`, branch
-    `extension-safe-api`)
-  - React/RCTWebSocket (from `https://github.com/yusefnapora/react-native`, branch
-    `extension-safe-api`)
+    commit `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTSettings (from `https://github.com/yusefnapora/react-native`, commit
+    `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTText (from `https://github.com/yusefnapora/react-native`, commit `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTVibration (from `https://github.com/yusefnapora/react-native`, commit
+    `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
+  - React/RCTWebSocket (from `https://github.com/yusefnapora/react-native`, commit
+    `f38f6ecebd3e2983b1be62b57c4900e6a170ff4f`)
   - SnapKit (~> 0.12.0)
 
 EXTERNAL SOURCES:
   React:
-    :branch: extension-safe-api
+    :commit: f38f6ecebd3e2983b1be62b57c4900e6a170ff4f
     :git: https://github.com/yusefnapora/react-native
 
 CHECKOUT OPTIONS:
   React:
-    :commit: 1b8ebbeae449ec4ab5a61635df13cb8841532742
+    :commit: f38f6ecebd3e2983b1be62b57c4900e6a170ff4f
     :git: https://github.com/yusefnapora/react-native
 
 SPEC CHECKSUMS:
-  React: 2d86fc6e8f7459cffa0eb4f758528f3dedfe0312
+  React: 0971bde1f7f2e9b9d576119bc3c054c76d32c501
   SnapKit: 00c388aa3bf1944c1b55472f31e841f75bd83882
 
-COCOAPODS: 0.36.4
+COCOAPODS: 0.37.2
